@@ -11,7 +11,14 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   
-  font-family: sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
+
+  background: url(images/background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 }
 
 *,*::before, *::after {
@@ -23,3 +30,24 @@ body {
   padding: 0;
 }
 
+h1 {
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.prof-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.prof-box {
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 140px;
+	text-align: center;
+}
